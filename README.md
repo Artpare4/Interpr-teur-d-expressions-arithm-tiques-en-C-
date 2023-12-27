@@ -1,5 +1,7 @@
 # Interpréteur d’expressions arithmétiques
 ## Arthur Parent 
+**Attention, ce programme est conçu pour fonctionner dans un environement UNIX. Notamment pour la compilation et l'exécution.**
+
 ## Sommaire
 1. [Entités](#Entités)
 2. [Mode d'emploi](#emploi)
@@ -7,11 +9,15 @@
 ### Entités <a name="Entités"></a>
 
 #### Piles : 
+Toutes les piles sont des piles chaînées.
+
 - PileReel : Pile contenant des réels
   - NoeudReel : Noeud contenant un réel
 - PilesChar : Pile contenant des caractères
   - Noeud: Noeud contenant un charactère
 #### Files :
+Les files sont des files chaînées.
+
 - FileExpression : File contenant des Expressions
   - NoeudExpression : Noeud contentant un Expression
 
